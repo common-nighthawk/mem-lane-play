@@ -22,8 +22,18 @@
                                     <action selector="buttonClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Thh-78-IO9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DVe-Ms-gGE">
+                                <rect key="frame" x="97" y="189" width="127" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Click Me To Get">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickToGet:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YZU-i3-CFy"/>
+                                </connections>
+                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What's ya name?" minimumFontSize="17" id="jP9-1R-oax">
-                                <rect key="frame" x="20" y="151" width="280" height="30"/>
+                                <rect key="frame" x="20" y="107" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
